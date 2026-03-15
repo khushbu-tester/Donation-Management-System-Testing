@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "Donation Management System - API Testing",
+		"description": "Collection of APIs for Donor Registration, Payments, and Refund Workflows."
+	},
+	"item": [
+		{
+			"name": "Donate Money (POST)",
+			"request": {
+				"method": "POST",
+				"url": "/api/v1/donate",
+				"description": "Validates the donation transaction via Credit/Debit card or POS."
+			},
+			"response": "200 OK - Transaction Successful"
+		},
+		{
+			"name": "Get Refund Status (GET)",
+			"request": {
+				"method": "GET",
+				"url": "/api/v1/refund/status/101",
+				"description": "Checks the current status of a refund request (Pending/Approved/Rejected)."
+			},
+			"response": "200 OK"
+		},
+		{
+			"name": "Submit Refund Request (POST)",
+			"request": {
+				"method": "POST",
+				"url": "/api/v1/refund/raise",
+				"description": "Negative Testing: Should return 400 if amount is greater than original donation."
+			}
+		}
+	]
+}
