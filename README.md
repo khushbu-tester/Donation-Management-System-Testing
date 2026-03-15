@@ -1,4 +1,4 @@
-Donation Domain Dashboard - End-to-End QA Testing yhi naam q rakha
+Donation Domain Dashboard - End-to-End QA Testing 
 Project Overview
 A specialized platform for the Muslim community to manage donations like Zakat, Harta, Fitrah, and Fidyah. The system integrates Web, Android, and iOS platforms, allowing users to donate via web apps or POS (Point of Sale) terminals installed in Masjids. It includes a complex Refund Management Workflow with multi-level approvals (Amil/Supervi)
  
