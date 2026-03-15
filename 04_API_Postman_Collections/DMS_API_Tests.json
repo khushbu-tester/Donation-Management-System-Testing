@@ -1,1 +1,25 @@
-
+{
+	"info": {
+		"name": "Donation Management System - API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Process Donation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": { "raw": "{{base_url}}/api/v1/donate" },
+				"description": "Validates Zakat/Fitrah payment transaction."
+			}
+		},
+		{
+			"name": "Check Refund Status",
+			"request": {
+				"method": "GET",
+				"url": { "raw": "{{base_url}}/api/v1/refund/status/101" },
+				"description": "API to track if the refund is approved by Supervisor."
+			}
+		}
+	]
+}
