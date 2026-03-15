@@ -52,3 +52,9 @@ SQL Queries: Go to 05_SQL_Validation_Scripts to see how I verify category-wise d
 API Collections: Check 04_API_Postman_Collections for automated endpoint validation scripts.
 
 Test Reports: View Daily_Status_Reports to see how I communicate progress to clients and on-site teams.
+
+---
+##  Author
+**Khushbu Rajak** | *Junior QA Engineer* [LinkedIn Profile](www.linkedin.com/in/khushbu-rajak-b224a9387)
+
+> **Security Note:** This repository is the original work of Khushbu Rajak. Unauthorized copying is strictly prohibited.
